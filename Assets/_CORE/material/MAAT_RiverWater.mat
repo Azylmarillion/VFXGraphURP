@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAAT_RiverWater
+  m_Shader: {fileID: -6465566751694194690, guid: 4ee39d6091711a74196bd656ecf1e530,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_213F3565: 1.42
+    - Vector1_276EF74: 100
+    - Vector1_2AAFCF90: 9.73
+    - Vector1_332C11FD: 7
+    - Vector1_37E11380: 10
+    - Vector1_390FBCA5: 0.0088
+    - Vector1_603A5B1B: 2
+    - Vector1_63BAB1CE: 26.59
+    - Vector1_6522C236: 3.54
+    - Vector1_68F6515D: 12.83
+    - Vector1_731DF8A7: 17.85
+    - Vector1_735371B0: 0.5
+    - Vector1_7A488560: 0.5
+    - Vector1_7BC0FFB4: 2
+    - Vector1_886EB729: -1
+    - Vector1_92DE413D: 1
+    - Vector1_9662D315: 2.5
+    - Vector1_BDB6C21B: 0.5
+    - Vector1_DE73264F: 0.3
+    - Vector1_FE6963E9: 4.6
+    - Vector1_c52fa8a1954d48edb0d01ccab5d8e383: 0
+    - _FoamCutoff: 5
+    - _FoamDistance: 1.45
+    - _FoamScale: 100
+    - _FoamStrength: 5
+    - _RefractionDistance: 1
+    - _RefractionPower: 3
+    - _RefractionScale: 10
+    - _RefractionSpeed: 0.5
+    - _RefractionStrengh: 0
+    - _RipplesDisolve: 9
+    - _RipplesScales: 15
+    - _RipplesSpeed: 0.82
+    - _WaveScale: 0
+    - _WaveSpeed: 0.1
+    m_Colors:
+    - Color_123CF20E: {r: 0, g: 0.024237156, b: 1, a: 0}
+    - Color_22D86639: {r: 0, g: 0, b: 0, a: 0}
+    - Color_2E31451D: {r: 0, g: 0.5618452, b: 0.9811321, a: 0}
+    - Color_5010C950: {r: 1, g: 1, b: 1, a: 0}
+    - Color_655544C: {r: 1, g: 1, b: 1, a: 0}
+    - Color_7FA7D704: {r: 0, g: 0.44102144, b: 1, a: 0}
+    - Vector2_D6190655: {r: 5, g: 0, b: 0, a: 0}
+    - _DeepWaterColor: {r: 0, g: 0.055339046, b: 0.5660378, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RefractionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RipplesColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RipplesTiling: {r: 10, g: 2, b: 0, a: 0}
+    - _ScrollSpeed: {r: -0.05, g: 0, b: 0, a: 0}
+    - _ShallowWaterColor: {r: 0, g: 0.5618452, b: 0.9811321, a: 0}
+    - _WaterColor: {r: 0, g: 0.6511245, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8575367835958158428
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
