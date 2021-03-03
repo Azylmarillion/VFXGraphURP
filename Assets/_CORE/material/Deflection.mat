@@ -92,22 +92,24 @@ Material:
     m_Floats:
     - Vector1_014ad799b29e409582272088db88983e: 0.2
     - Vector1_7584e6767ec242e982aceb8b6c0bd240: 0
-    - _Alpha: 0.08
+    - _Alpha: 0.06
     - _AlphaClip: 0
-    - _AlphaTotation: -63.74
+    - _AlphaTotation: -52.3
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Cutout: 8.8
+    - _Cutout: 7
     - _CutoutSpeed: 0.6
     - _CutoutSpeed2: 1.7
-    - _CutoutTotation: 82.3
+    - _CutoutTotation: 95
     - _CutoutTotation2: -90
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DistortionSize: 0.1
+    - _DistortionSpeed: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -146,5 +148,5 @@ Material:
     - _ScrollSpeed: {r: 1, g: -1, b: 0, a: 0}
     - _ScrollSpeed_1: {r: 1, g: -1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _WaterColor: {r: 0, g: 0.9054112, b: 1, a: 0}
+    - _WaterColor: {r: 0, g: 0.8085575, b: 1, a: 0}
   m_BuildTextureStacks: []
