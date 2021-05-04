@@ -29,16 +29,16 @@ namespace UnityEngine.Rendering.LWRP
 
         public override void Create()
         {
-            var passIndex = settings.blitMaterial != null ? settings.blitMaterial.passCount - 1 : 1;
-            settings.blitMaterialPassIndex = Mathf.Clamp(settings.blitMaterialPassIndex, -1, passIndex);
+            int _passIndex = settings.blitMaterial != null ? settings.blitMaterial.passCount - 1 : 1;
+            settings.blitMaterialPassIndex = Mathf.Clamp(settings.blitMaterialPassIndex, -1, _passIndex);
             blitPass = new BlitPass(settings.Event, settings.blitMaterial, settings.blitMaterialPassIndex, name);
             m_RenderTextureHandle.Init(settings.textureId);
         }
 
         public override void AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer renderer, ref UnityEngine.Rendering.Universal.RenderingData renderingData)
         {
-            var src = renderer.cameraColorTarget;
-            var dest = (settings.destination == Target.Color) ? UnityEngine.Rendering.Universal.RenderTargetHandle.CameraTarget : m_RenderTextureHandle;
+            UnityEngine.Rendering.RenderTargetIdentifier src = renderer.cameraColorTarget;
+            UnityEngine.Rendering.Universal.RenderTargetHandle dest = (settings.destination == Target.Color) ? UnityEngine.Rendering.Universal.RenderTargetHandle.CameraTarget : m_RenderTextureHandle;
 
             if (settings.blitMaterial == null)
             {
